@@ -1,16 +1,34 @@
+﻿# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Hossein Karami | حسین کرمی
-email: hi@hosseinkarami.com
-description: توسعه‌دهنده رابط کاربری
-baseurl: "https://hosseinkarami.com/"
-url: "https://hosseinkarami.com"
-twitter: _Karamii
-github:  HosseinKarami
-behance: HosseinKarami
+title: سایت شخصی عبدالکریم بازدار
+email: bazdarabdolkarim@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  سایت شخصی عبدالکریم بازدار 
+  و در این سایتم براتون نحوه ی اموزش کار با گیت رو 
+  میخوام بهتون یاد بدم 
+  امیدوارم مفید واقع بشود
+  با کمک همکلاسیم خانم شفیعی
+  که در طراحی این سایت کمکم کرد و ازش ممنونم
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://A-badzar.ir" # the base hostname & protocol for your site
+twitter_username: bazdarabdolkarim
+github_username:  A-bazdar
+
 # Build settings
 markdown: kramdown
-permalink: pretty
-gems: [jekyll-paginate]
-paginate: 5
-paginate_path: "/blog/page:num/"
-exclude: ["node_modules", "gulpfile.js", "package.json"]
+kramdown:
+    coderay_line_numbers: 1
+encoding: utf-8
+timezone: Asia/Tehran
+
+gems:
+  - jekyll-sitemap
+#  - jalalidate - coderay
+  
